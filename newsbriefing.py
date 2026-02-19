@@ -23,7 +23,7 @@ RSS_FEEDS = [
 
 def generate_ai_briefing(title, original_url):
     """Gemini API를 사용하여 뉴스를 재구성 및 요약"""
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-1.5-flash-latest')
     
     prompt = f"""
     당신은 상업용 뉴스 브리핑 AI 에디터입니다.
